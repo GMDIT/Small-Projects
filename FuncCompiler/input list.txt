@@ -1,0 +1,20 @@
+///examples
+let a = true in let f = a in let b = false in and( let b = and (a,true) in and(and(b,let c = let d = a in d in c), b, a, let s = true in s))
+
+let a = true in let f = a in let b = false in and( let b = and (b,true) in and(and(b,let c = let d = a in d in c), b, a, let s = true in s))
+
+let a = true in let b = false in and( let b = and (a,true) in and(and(b,let c = let d = true in d in c), b, a, true))
+
+let a = true in let b = a in let c = let d = true in d in b
+
+let a = true in let b = a in let c = let d = true in d in and(let s = a in s,b,c)
+
+and(true, let a = true in a)
+
+and()
+
+let x = true in true
+
+let x = true in x
+
+let x = true in and(x, true)
