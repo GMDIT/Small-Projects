@@ -1,5 +1,3 @@
-﻿// Gian Maria Delogu     452706
-
 open System.Windows.Forms
 open System.Drawing
 open System.Drawing.Drawing2D
